@@ -1,0 +1,41 @@
+.section{
+    width: 70rem;
+    height: 36.5rem;
+    border: 1px solid rgb(255, 255, 255);
+    
+    display: grid;
+    grid-template-columns: repeat(3, 372px);
+    grid-template-rows: repeat(12, 49px);
+}
+.cuadro1{
+    width: 100%; 
+    height: 5.6rem;
+    border: 1px solid white;
+    background-color: orange;
+    grid-column:  1/3;
+    grid-row: 1/2;
+}
+.cuadro2{
+    width: 100%; 
+    height: 14.5rem;
+    border: 1px solid white;
+    background-color: orange;
+    grid-column:  1/3;
+    grid-row: 3/4;
+}
+.cuadro3{
+    width: 100%; 
+    height: 7.5rem;
+    border: 1px solid white;
+    background-color: orange;
+    grid-column:  1/3;
+    grid-row: 8/9;
+}
+.cuadro4{
+    width: 100%; 
+    height: 5.5rem;
+    border: 1px solid white;
+    background-color: orange;
+    grid-column:  1/3;
+    grid-row: 11/12;
+}

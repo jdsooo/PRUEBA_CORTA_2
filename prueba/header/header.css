@@ -1,0 +1,22 @@
+header {
+    background-color: #37d645;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#btnIzquierdo {
+    margin-right: 920px;
+}
+
+#btnDerecho{
+    margin-left: 100px;
+}
